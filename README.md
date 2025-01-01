@@ -2,46 +2,50 @@
 
 1. Project Tools:
 
-Programming Languages and Libraries: Python, Pandas, NumPy, Matplotlib, Seaborn, and SciPy.
-Visualization Tools: Scatter plots, Box plots, Correlation Heatmaps.
-Data Manipulation Techniques: Grouping, Pivot Tables, Descriptive Statistics.
+- Programming Languages and Libraries: Python, Pandas, NumPy, Matplotlib, Seaborn, and SciPy.
+- Visualization Tools: Scatter plots, Box plots, Correlation Heatmaps.
+- Data Manipulation Techniques: Grouping, Pivot Tables, Descriptive Statistics.
 
 2. Objective:
-To analyze automobile data and uncover key factors influencing car prices. This includes cleaning and preprocessing the data, performing exploratory data analysis (EDA), and identifying significant predictors of price.
+- To analyze automobile data and uncover key factors influencing car prices. This includes cleaning and preprocessing the data, performing exploratory data analysis (EDA), and identifying significant predictors of price.
 
 3. Steps Summary:
 
-Data Loading and Exploration:
+#### Data Loading and Exploration:
 
-Loaded a dataset containing car specifications and prices using Pandas.
-Inspected columns, data types, and summary statistics to understand the dataset structure.
-Data Cleaning and Preprocessing:
+- Loaded a dataset containing car specifications and prices using Pandas.
+- Inspected columns, data types, and summary statistics to understand the dataset structure.
 
-Handled missing values in columns like normalized-losses and ensured proper data types for numerical and categorical columns.
-Created derived metrics (e.g., city-L/100km) and categorized horsepower into bins (horsepower-binned).
-Exploratory Data Analysis (EDA):
+#### Data Cleaning and Preprocessing:
 
-Univariate Analysis: 
-Used histograms, box plots, and descriptive statistics to examine individual variables like price, body-style, and horsepower.
-Bivariate Analysis: 
-Analyzed relationships between variables using correlation matrices and scatterplots (e.g., engine-size vs. price).
-Categorical Analysis: 
-Explored categorical variables (drive-wheels, body-style) using box plots to examine their impact on price.
-Statistical Testing:
+- Handled missing values in columns like normalized-losses and ensured proper data types for numerical and categorical columns.
+- Created derived metrics (e.g., city-L/100km) and categorized horsepower into bins (horsepower-binned).
 
-Conducted Pearson correlation analysis to identify significant predictors of price (e.g., engine-size and curb-weight showed strong positive correlations).
-Data Grouping and Aggregation:
+### Exploratory Data Analysis (EDA):
 
-Grouped data by drive-wheels and body-style to compute average prices, creating pivot tables to summarize results.
-Visualized the grouped data using heatmaps.
-Insights and Conclusions:
+1. Univariate Analysis: 
+- Used histograms, box plots, and descriptive statistics to examine individual variables like price, body-style, and horsepower.
+2. Bivariate Analysis: 
+- Analyzed relationships between variables using correlation matrices and scatterplots (e.g., engine-size vs. price).
+3. Categorical Analysis: 
+- Explored categorical variables (drive-wheels, body-style) using box plots to examine their impact on price.
 
-Identified key factors influencing car price, such as engine-size, horsepower, curb-weight, and drive-wheels.
-Noted that engine-location and other less varied features are poor predictors due to skewed distributions.
-4. Project Outcome: The project highlights the factors impacting car prices and provides a framework for predicting prices using exploratory analysis. It also offers actionable insights for automakers and consumers. For example:
+#### Statistical Testing:
+- Conducted Pearson correlation analysis to identify significant predictors of price (e.g., engine-size and curb-weight showed strong positive correlations).
 
-Rear-wheel drive (rwd) cars are typically higher-priced compared to front-wheel drive (fwd) or four-wheel drive (4wd).
-Engine-size and horsepower are strong predictors of price, while stroke and peak-rpm show weak correlations.
+#### Data Grouping and Aggregation:
+
+- Grouped data by drive-wheels and body-style to compute average prices, creating pivot tables to summarize results.
+- Visualized the grouped data using heatmaps.
+
+#### Insights and Conclusions:
+
+- Identified key factors influencing car price, such as engine-size, horsepower, curb-weight, and drive-wheels.
+- Noted that engine-location and other less varied features are poor predictors due to skewed distributions.
+#### Project Outcome: 
+- The project highlights the factors impacting car prices and provides a framework for predicting prices using exploratory analysis. It also offers actionable insights for automakers and consumers. For example:
+- Rear-wheel drive (rwd) cars are typically higher-priced compared to front-wheel drive (fwd) or four-wheel drive (4wd).
+- Engine-size and horsepower are strong predictors of price, while stroke and peak-rpm show weak correlations.
 
 
 
