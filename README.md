@@ -7,25 +7,30 @@ Visualization Tools: Scatter plots, Box plots, Correlation Heatmaps.
 Data Manipulation Techniques: Grouping, Pivot Tables, Descriptive Statistics.
 
 2. Objective:
+3. 
 To analyze automobile data and uncover key factors influencing car prices. This includes cleaning and preprocessing the data, performing exploratory data analysis (EDA), and identifying significant predictors of price.
 
-3. Steps Summary:
+4. Steps Summary:
 
-Data Loading and Exploration:
+1.0 Data Loading and Exploration:
 
 Loaded a dataset containing car specifications and prices using Pandas.
 Inspected columns, data types, and summary statistics to understand the dataset structure.
-Data Cleaning and Preprocessing:
+
+1.1. Data Cleaning and Preprocessing:
 
 Handled missing values in columns like normalized-losses and ensured proper data types for numerical and categorical columns.
 Created derived metrics (e.g., city-L/100km) and categorized horsepower into bins (horsepower-binned).
-Exploratory Data Analysis (EDA):
 
-Univariate Analysis: 
+5. Exploratory Data Analysis (EDA):
+
+1.0 Univariate Analysis: 
 Used histograms, box plots, and descriptive statistics to examine individual variables like price, body-style, and horsepower.
-Bivariate Analysis: 
+
+1.1 Bivariate Analysis: 
 Analyzed relationships between variables using correlation matrices and scatterplots (e.g., engine-size vs. price).
-Categorical Analysis: 
+
+1.2 Categorical Analysis: 
 Explored categorical variables (drive-wheels, body-style) using box plots to examine their impact on price.
 Statistical Testing:
 
@@ -38,6 +43,7 @@ Insights and Conclusions:
 
 Identified key factors influencing car price, such as engine-size, horsepower, curb-weight, and drive-wheels.
 Noted that engine-location and other less varied features are poor predictors due to skewed distributions.
+
 4. Project Outcome: The project highlights the factors impacting car prices and provides a framework for predicting prices using exploratory analysis. It also offers actionable insights for automakers and consumers. For example:
 
 Rear-wheel drive (rwd) cars are typically higher-priced compared to front-wheel drive (fwd) or four-wheel drive (4wd).
